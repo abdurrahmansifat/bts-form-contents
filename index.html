@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS links-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/all.css">
+
+    <title>components</title>
+  </head>
+  <body>
+ <!--table work start-->
+ <section>
+  <div class="container">
+  <div class="row">
+  <div class="col-lg-6">
+    <div class="table-responsive">
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th class="coll">#</th>
+        <th class="coll">first</th>
+        <th class="coll">second</th>
+        <th class="coll">third</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th class="row">1</th>
+        <td>sifat</td>
+        <td>safin</td>
+        <td>rafin</td>
+      </tr>
+      <tr>
+        <th class="row">2</th>
+        <td>grapic designer</td>
+        <td>full stack web developer</td>
+        <td>seo expert</td>
+      </tr>
+      <tr>
+        <th class="row">3</th>
+        <td colspan="2">mentor</td>
+       <td>expert</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+  </div>
+  </div>
+  </div>
+ </section>
+ <!--table work end-->
+ <!--figure work start-->
+ <section>
+  <div class="container">
+  <div class="row">
+    <div class="col-lg-6">
+      <figure class="figure">
+        <img src="images/work.jpg" class="img-figure img-fluid rounded" alt="">
+        <figcaption class="figure-caption f_1">how are you</figcaption>
+      </figure>
+    </div>
+  </div>
+  </div>
+<!--figure work end-->
+<!--form work start-->
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+      <form action="" method="">
+        <div class="mb-3">
+          <label for="u_email" class="form-label">Email Address</label>
+          <input type="email" class="form-control u_email" id="u_email"required>
+          <div id="u_email" class="form-text">don't share your email</div>
+        </div>
+          <div class="mb-3">
+          <label for="u_pass" class="form-label">password</label>
+          <input type="password" class="form-control u_pass" id="u_pass"required>
+          <div id="u_pass" class="form-text">don't share your password</div>
+        </div>
+          <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input u_check" id="u_check">
+          <label for="u_check" class="form-check-label">check me out</label>
+         </div>
+          <div class="mb-3">
+          <label for="u_file" class="form-label">choose your file</label>
+          <input type="file" class="form-control u_form" id="u_form" multiple>
+         </div>
+         <select class="form-select form-select-lg mb-3">
+          <option selected>open this select menu</option>
+          <option class="1">one</option>
+          <option class="2">two</option>
+          <option class="3">three</option>
+         </select>
+         <div class="row mb-3">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="first name">
+          </div>
+            <div class="col">
+            <input type="text" class="form-control" placeholder="last name">
+          </div>
+         </div>
+         <button type="submit" class="btn btn-primary">submit</button>
+       </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!--form work end-->
+<!--validation start-->
+
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <form class="row g-3 needs-validation" novalidate>
+  <div class="col-md-4">
+    <label for="validationCustom01" class="form-label">First name</label>
+    <input type="text" class="form-control" id="validationCustom01" value="sifat" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Last name</label>
+    <input type="text" class="form-control" id="validationCustom02" value="khan" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustomUsername" class="form-label">Username</label>
+    <div class="input-group has-validation">
+      <span class="input-group-text" id="inputGroupPrepend">@</span>
+      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+      <div class="invalid-feedback">
+        Please choose a username.
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label for="validationCustom03" class="form-label">City</label>
+    <input type="text" class="form-control" id="validationCustom03" required>
+    <div class="invalid-feedback">
+      Please provide a valid city.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom04" class="form-label">State</label>
+    <select class="form-select" id="validationCustom04" required>
+      <option selected disabled value="">Choose...</option>
+      <option>...</option>
+    </select>
+    <div class="invalid-feedback">
+      Please select a valid state.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom05" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="validationCustom05" required>
+    <div class="invalid-feedback">
+      Please provide a valid zip.
+    </div>
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>
+        
+      </div>
+    </div>
+  </div>
+<!--validation end-->
+
+
+
+
+
+
+<!-- js links-->
+   
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+    <script>
+     // Example starter JavaScript for disabling form submissions if there are invalid fields
+     (function () {
+    'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+  
+</script>
+
+   
+ </body>
+</html>
+
+
+<!--ff
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        
+      </div>
+    </div>
+  </div>
+</section>-->
